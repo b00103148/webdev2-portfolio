@@ -1,0 +1,327 @@
+body {
+
+  background: BLACK;
+}
+ 
+ /*INDEX*/
+ 
+.nav ul {
+  list-style: none;
+  background-color: #dd4040;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: georgia;
+  font-size: 20px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  
+}
+ 
+.nav a:hover {
+  background-color: #ffa0a0;
+}
+ 
+.nav a.active {
+  
+  color: #ffc9c9;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+  
+    .nav li {
+    display: inline-block;
+    margin-right: -4px;
+	
+	}
+
+.homespan {
+	text-align: center;
+	font-family: garamond;
+	color: #dd4040;
+	
+	
+}
+
+.maintext {
+	margin: 100px;
+	background-color: white;
+	display: block;
+	margin: 7.5em;
+	
+   
+}
+
+h1 {
+	font-size: 72px
+
+	
+}
+
+#mainimg {
+	width: 960px;
+	height: 578px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 10px;
+	border-radius: 30px;
+	
+    
+}
+
+.hometext {
+	color: #9e2a2a;
+	
+	
+}
+
+/*PHOTOGRAPHY*/
+
+#phototextdiv {
+	font-size: 40px;
+	text-align: center;
+	background: white;
+	display: block;
+}
+
+.phototext {
+	font-family: garamond;
+	color: black;
+}
+
+#photocontainer {
+	
+	width: auto;
+	height: auto;
+	display: block;
+}
+.photofooter {
+	color:white;
+}
+.picone {
+	width: 600px;
+	height: 399px;
+	
+	
+}
+
+.pictwo {
+	width: 600px;
+	height: 399px;
+}
+
+.picthree {
+	width: 600px;
+	height: 899px;
+}
+
+.picfour {
+	width: 600px;
+	height: 899px;
+}
+
+.mainone {
+	
+}
+
+.photoone {
+	display: inline-block;
+	padding-left: 90px;
+	padding-right: 90px;
+	
+	
+}
+
+.phototwo {
+	display: inline-block;
+	
+
+	
+}
+
+.photothree {
+	display: inline-block;
+	
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 100px;
+	
+}
+
+.photofour {
+	display: inline-block;
+	
+	margin-left: auto;
+    margin-right: auto;
+	
+	
+}
+
+.mainone {
+	margin: auto;
+	background: white;
+	padding-top: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	display: block;
+	width: 1500px;
+}
+
+.maintwo {
+	margin: auto;
+	background: white;
+	padding-top: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	display: block;
+	width: 1500px;
+}
+
+#phototext {
+	font-family: garamond;
+	font-size: 20px;
+	font-style: italic;
+}
+
+/*ABOUT*/
+
+#aboutdiv {
+	text-align: center;
+	background: linear-gradient(#e88f8f, #ffc6c6, white, pink);
+	padding-bottom: 10px;
+	border-radius: 25px;
+	
+}
+
+.aboutme {
+	font-size: 72px;
+	color: red;
+}
+
+.about {
+	color: black;
+	font-size: 20px;
+}
+
+/* DESIGN */
+
+#designtextdiv {
+	background: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+.designtext {
+	font-family: garamond;
+	color: black;
+}
+
+#designdiv {
+	background:white;
+	display:block;
+	width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 5px;
+	
+}
+
+.carpdiv {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top:20px;
+   
+}
+
+.carpimg {
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+}
+
+.posterdiv {
+	display: inline-block;
+	margin: auto;
+	
+	
+	
+}
+
+.designtexttwo {
+	text-align:center;
+	font-family: georgia;
+	
+}
+
+.posterimg {
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	margin-left: 98px;
+	
+	
+}
+
+/*MEDIA */
+
+#mediadiv {
+	background-color:white;
+	width: 960px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	
+}
+
+#mediatext {
+	text-align: center;
+	font-size: 26px;
+	font-family: georgia;
+}
+
+a {
+	color: red;
+	font-size: 26px;
+	text-align: center;
+	
+	
+	
+}
+
+.mediaimg {
+	padding: 10px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+	
+}
+
+/*FOOTER*/
+
+footer {
+	color: white;
+	font-family: georgia;
+	
+}
+
+
